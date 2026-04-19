@@ -103,18 +103,18 @@ mvn test
 
 ##  Requisitos Implementados
 
-| Item | Descrição |
-|---|---|---|
-| 3.1 | Inserir todos os funcionários |
-| 3.2 | Remover funcionário "João" | 
-| 3.3 | Imprimir com formato de data e moeda | 
-| 3.4 | Aumento de 10% no salário | 
-| 3.5 | Agrupar por função em MAP | 
-| 3.6 | Imprimir agrupados por função | 
-| 3.8 | Aniversariantes nos meses 10 e 12 | 
-| 3.9 | Funcionário com maior idade | 
-| 3.10 | Lista em ordem alfabética | 
-| 3.11 | Total dos salários | 
-| 3.12 | Quantidade de salários mínimos por funcionário |
+| Item  | Funcionalidade |
+|-------|----------------|
+| 3.1   | Inserção de todos os funcionários conforme a tabela fornecida |
+| 3.2   | Remoção do funcionário **João** da lista |
+| 3.3   | Impressão dos dados com formatação:<br>• Data no padrão **dd/MM/yyyy**<br>• Salário no padrão brasileiro (**1.234,56**) |
+| 3.4   | Aplicação de aumento salarial de **10%** para todos os funcionários |
+| 3.5   | Agrupamento dos funcionários por função utilizando `Map<String, List<Funcionario>>` |
+| 3.6   | Exibição dos funcionários organizados por função |
+| 3.8   | Filtragem e exibição de funcionários com aniversário nos meses **outubro (10)** e **dezembro (12)** |
+| 3.9   | Identificação e exibição do funcionário com maior idade (nome e idade) |
+| 3.10  | Ordenação e exibição da lista de funcionários em ordem alfabética |
+| 3.11  | Cálculo e exibição do total dos salários |
+| 3.12  | Cálculo da quantidade de salários mínimos por funcionário (base: R$ 1212,00) |
 
 ---
